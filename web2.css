@@ -1,0 +1,130 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ .navbar
+    {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        
+    }
+    .navbar .logo
+    {
+       height: 100%;
+       width: 20%;
+        background-color: brown;
+    }
+    .logo img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .navbar .menu
+    {
+        height: 100%;
+        width: 100%;
+        
+    }
+    .menu ol
+    {
+        list-style: none;
+        display: flex;  
+        justify-content: space-evenly;
+        
+        height: 100%;
+        align-items: center;
+    }
+    .menu ol li
+    {
+        padding: 10px 30px 5px 30px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+         
+    }
+    .menu ol li a
+    {
+        text-decoration: none;
+        color: black;
+        text-shadow: 3px 3px 3px black;
+        
+    }
+    .menu ol li:hover
+    {
+        background-image: linear-gradient(rgb(127, 237, 127),rgb(248, 145, 145));
+        border-style: solid;
+        border-width: 0.50px;
+        border-radius: 5px;
+    }
+
+.section
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.navbar
+{
+    height:100px;
+    width:100%;
+    border: solid 1px;
+}
+.hero
+{
+    height:400px;
+    width:100%;
+    border:solid 1px;
+    display: flex;
+}
+.hero .part1
+{
+    height:400px;
+    width:40%;
+    border:solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero .part2
+{
+    height:400px;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border:solid 1px;
+}
+.part1 .item1
+{
+    height:90%;
+    width:70%;
+    padding:20px;
+    border-radius:20px;
+    border-top-left-radius:0px;
+    background-color: pink;
+}
+.item1 h1
+{
+    font-size:40px;
+}
+.item1 button
+{
+    padding:10px 30px;
+    background-image: linear-gradient(black,white);
+    border: none;
+}
+.part2 img
+{
+    height:100%;
+}
+
+
+
+
+
+
