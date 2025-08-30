@@ -1,0 +1,606 @@
+ *
+    {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .menu
+    {
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+    }
+    .menu .logo
+    {
+        height: 100%;
+        width: 30%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img
+    {
+        height: 50%;
+        width: 50%;
+        
+    }
+    .menu .bar
+    {
+        height: 100%;
+        width: 80%;
+        align-content: center;
+    }
+    .bar a
+    {
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        color: black;
+        font-weight: bolder; 
+    }
+    .bar a:hover
+    {
+        color: rgb(83, 199, 228);
+    }
+    .carousel
+    {
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-item img
+    {
+        height: 350px;
+        width:80%;
+    }
+    .big
+    {
+        height: 520px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .big h1
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .pink
+    {
+        color: rgb(194, 16, 140);
+
+    }
+
+    .zero
+    {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+    } 
+    .zero .first
+    {
+        height: 100%;
+        width: 45%; 
+        
+        text-align: center;
+
+    }
+    .first img
+    {
+        height: 85%;
+        width: 100%;
+    }
+    .first button
+    {
+        color: white;
+        background-color: rgb(194, 16, 140);
+        padding: 8px 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    .heading
+    {
+        height: 500px;
+        width: 100%;
+       background-color: rgb(228, 206, 206);
+        margin-top: 100px;
+    }
+    .heading h1
+    {
+        display: flex;
+        justify-content: center; 
+    }
+    .pink2
+    {
+        color: rgb(194, 16, 140);
+    }
+    .heading .primary
+    {
+        height: 50%;
+        width: 90%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .primary 
+    {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: right;
+        margin-top: 80px;
+    }
+    .primary .secondary
+    {
+        height: 100%;
+        width: 45%;
+        background-image: url(https://www.monginis.net/wp-content/uploads/2022/06/Component-3-%E2%80%93-1-2.png);
+        background-size: cover;
+        border-radius: 10px;   
+        background-color: white;
+ 
+    }
+    .primary .third
+    {
+        height: 100%;
+        width: 45%;
+        background-image: url(https://www.monginis.net/wp-content/uploads/2022/06/Component-2-%E2%80%93-1-1.png);
+        background-size: cover;
+           border-radius: 10px;   
+    }
+    .secondary h2
+    {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+     .third h2
+    {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .secondary button
+    {
+        margin-top: 20px;
+        margin-right: 20px;
+        color: white;
+        background-color: rgb(194, 16, 140);
+        border-radius: 8px;
+        padding: 8px 20px;
+    }
+    .third button
+    {
+        margin-top: 20px;
+        margin-right: 20px;
+        color: white;
+        background-color: rgb(194, 16, 140);
+        border-radius: 8px;
+        padding: 8px 20px;
+    }
+    .alpha
+    {
+        height: 350px;
+        width: 100%;
+    }
+   .A
+   {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+   .A button
+   {
+    padding: 10px 25px;
+    background-color: rgb(194, 16, 140);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+   }
+   .pink3
+   {
+    color: rgb(194, 16, 140);
+   }
+   .alpha .high
+   {
+    height: 280px;
+    width: 90%; 
+   }
+   .high
+   {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .beta h3,.beta2 h3,.beta3 h3,.beta4 h3,.beta5 h3
+   {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+   }
+  .beta img
+  {
+    border-radius: 100px;
+  }
+    .alpha2
+    {
+        height: 350px;
+        width: 100%;
+        background-color: rgb(214, 238, 248);
+    }
+   .A2
+   {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+   .A2 button
+   {
+    padding: 10px 25px;
+    background-color: rgb(194, 16, 140);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+   }
+   .pink4
+   {
+    color: rgb(194, 16, 140);
+   }
+   .alpha2 .high2
+   {
+    height: 280px;
+    width: 90%; 
+   }
+   .high2
+   {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  .beta2 img
+  {
+    border-radius: 100px;
+  }
+  .alpha3
+    {
+        height: 350px;
+        width: 100%;
+    }
+   .A3
+   {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+   .A3 button
+   {
+    padding: 10px 25px;
+    background-color: rgb(194, 16, 140);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+   }
+   .pink5
+   {
+    color: rgb(194, 16, 140);
+   }
+   .alpha3 .high3
+   {
+    height: 280px;
+    width: 90%; 
+   }
+   .high3
+   {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  .beta3 img
+  {
+    border-radius: 100px;
+  }
+    .alpha4
+    {
+        height: 350px;
+        width: 100%;
+        background-color: rgb(214, 238, 248);
+    }
+   .A4
+   {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+   .A4 button
+   {
+    padding: 10px 25px;
+    background-color: rgb(194, 16, 140);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+   }
+   .pink6
+   {
+    color: rgb(194, 16, 140);
+   }
+   .alpha4 .high4
+   {
+    height: 280px;
+    width: 90%; 
+   }
+   .high4
+   {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  .beta4 img
+  {
+    border-radius: 100px;
+  }
+   .alpha5
+    {
+        height: 350px;
+        width: 100%;
+        
+    }
+   .A5
+   {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   }
+   .A5 button
+   {
+    padding: 10px 25px;
+    background-color: rgb(194, 16, 140);
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+   }
+   .pink7
+   {
+    color: rgb(194, 16, 140);
+   }
+   .alpha5 .high5
+   {
+    height: 280px;
+    width: 90%; 
+   }
+   .high5
+   {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  .beta5 img
+  {
+    border-radius: 100px;
+  }  
+  .back
+  {
+    height: 200px;
+    width: 100%;
+    background-image: url(https://www.monginis.net/wp-content/uploads/2022/06/Untitled-design-24.png);
+    background-size: cover;
+  }
+  .back .text
+  {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+ }   
+ .text h4
+ {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+ }
+ .back2
+ {
+    height: 350px;
+    width: 100%;
+    background-image: url(https://www.monginis.net/wp-content/uploads/2022/06/Component-4-%E2%80%93-1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color:#e4e0f4;
+ }
+ .pink8
+ {
+    color: rgb(194, 16, 140);
+ }
+ .back2 .extra
+ {
+    height: 100%;
+    width: 80%;
+    align-content: center;
+    line-height: 20px;
+ }
+ .extra input
+ {
+    padding: 10px 90px;
+ }
+ .extra button
+ {
+    padding: 10px 30px;
+    background-color: rgb(41, 44, 172);
+    color: white;
+ }
+ .headline
+ {
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+ }
+ .headline .head
+ {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .pink9
+ {
+    color: rgb(194, 16, 140);
+ }
+ .headline .images
+ {
+    height: 100%;
+    width: 100%;
+ }
+ .images 
+ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .images .first1
+ {
+    display: flex;
+    height: 50%;
+    width: 20%;
+ }
+ .pera
+ {
+    height: 150px;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: #7a7a7a;
+    line-height: 15px;
+ }
+ .best
+ {
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+ }
+ .best .headimg
+ {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+ }
+ .headimg 
+{
+    height: 100%;
+    width: 100%;
+}
+.headimg i
+{
+    padding: 5px 20px;
+    font-size: 28px;
+}
+.best .contact
+{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact .first
+{
+    height: 100%;
+    width: 100%;
+}
+.first a
+{
+ color: black;
+ display: block;
+ list-style: none;
+}
+.last
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+  
+/* all media query size */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Your styles here */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* Your styles here */
+}
+
+/* XXL / Ultra large devices (very large screens, 1400px and up) */
+@media (min-width: 1400px) {
+  /* Your styles here */
+}
